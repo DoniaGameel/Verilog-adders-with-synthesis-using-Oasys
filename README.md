@@ -212,3 +212,17 @@ then selected with the multiplexer once the correct carry is known.
 Testbench prints **“TestCase#i: success”** on success and 
 prints the **“TestCase#i: failed with input X and Y and Output Z and overflow
 status N”** , X,Y,Z,N in blue should be replaced by your values.
+
+## How to test the modules?
+
+1-Open Modelsim.
+
+2-Create project
+
+3-Add files in helping_modules folder to the project
+
+4-Add files in verilog_adders_pre_synthesis folder to the project
+
+5-Add file 'Adders_tb.v' from test_benches folder to the project 
+
+6-Simulate 'Adders_tb.v' file using modelsim
