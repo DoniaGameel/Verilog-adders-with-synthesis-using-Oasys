@@ -250,3 +250,16 @@ detailed Synthesis results of each adder are in 'post_synthesis_detailed_reports
 **collective results report:**
 
 ![My Image](report.png)
+
+**Minimum area** : Verilog Adder plus
+
+**Maximum area** : Carry Select Adder
+
+**Minimum delay** : Carry Select Adder
+
+**Maximum delay** : Carry Save Adder
+
+**Minimum Power** : Carry Increment Adder, Ripple Carry Adder
+
+**Maximum Power** : Verilog Adder plus
+
