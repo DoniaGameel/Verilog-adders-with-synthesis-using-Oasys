@@ -226,3 +226,27 @@ status N”** , X,Y,Z,N in blue should be replaced by your values.
 5-Add file 'Adders_tb.v' from test_benches folder to the project 
 
 6-Simulate 'Adders_tb.v' file using modelsim
+
+## Synthesis using Oasys:
+
+**Synthesis the adders with the following constraints**
+
+i. Set (virtual) clock to 20ns.
+
+ii. Set Input delay to 1ns.
+
+iii. Set load to 10
+
+iv. Set output load to 0.5ns.
+
+v. Set Utilization to 60%
+
+vi. Enable usage of all library cells.
+
+## Synthesis Results
+
+detailed Synthesis results of each adder are in 'post_synthesis_detailed_reports' folder
+
+**collective results report:**
+
+![My Image](report.png)
