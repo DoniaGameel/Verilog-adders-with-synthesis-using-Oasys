@@ -38,7 +38,7 @@ In this repo, we implemented using verilog the following 32-bits signed integer 
 
 **8- Carry Select Adder**
 
-## Ripple Carry Adder
+## Ripple Carry Adder (RCA)
 
 The ripple carry adder is constructed by cascading full adders (FA) blocks in series. One full adder is responsible for the addition of two binary digits at any stage of the ripple carry. The carryout of one stage is fed directly to the carry-in of the next stage.
 
@@ -49,7 +49,7 @@ The ripple carry adder is constructed by cascading full adders (FA) blocks in se
 
 **The design schematic of RCA:**
 
-## Carary Save Adder
+## Carary Save Adder (CSA)
 
 The carry-save adder reduces the addition of 3 numbers to the addition of 2 numbers. The 
 propagation delay is 3 gates regardless of the number of bits. The carry-save unit consists of n full 
@@ -66,7 +66,7 @@ high speed digital signal processing**
 
 **The design schematic of CSA:**
 
-## Carry Look-Ahead Adder
+## Carry Look-Ahead Adder (CLA)
 
  This adder is based on the principle of looking at the lower order bits of the augends and addend if a higher order carry is generated. This adder reduces the carry delay by 
 reducing the number of gates through which a carry signal must propagate. Carry look 
@@ -100,3 +100,45 @@ S<sub>i</sub>= A<sub>i</sub> ⊕ B<sub>i</sub>C<sub>i-1</sub>  for i=0,1,2,3 Eq 
 **The propagation delay occurred in the parallel adders can be eliminated by carry look ahead adder.**
 
 **The design schematic of 8 bit look ahead adder using two four bit look ahead block:**
+
+## Carry Increment Adder (CIA)
+
+An 8-bit increment adder includes two RCA (Ripple carry adder) of four bit each. The first ripple 
+carry adder adds a desired number of first 4-bit inputs generating a plurality of partitioned sum 
+and partitioned carry. Now the carry out of the first block RCA is given to CIN of the conditional 
+increment block. Thus the first four bit sum is directly taken from the ripple carry output. The 
+second RCA block regardless of the first RCA output will carry out the addition operation and 
+will give out results which are fed to the conditional increment block. The input CIN to the first 
+RCA block is given always low value. The conditional increment block consists of half adders. 
+Based on the value of cout of the 1st RCA block, the increment operation will take place. Here 
+the half adder in carry increment block performs the increment operation. Hence the output sum 
+of the second RCA is taken through the carry increment block.
+
+**The design schematic of Carry Increment Adder:**
+
+## Carry Skip Adder (CSkA)
+
+A carry-skip adder consists of a simple ripple carry-adder with a special speed up carry chain called a skip chain. A carry-skip adder is 
+designed to speed up a wide adder by aiding the propagation of a carry bit around a portion of the 
+entire adder. Actually the ripple carry adder is faster for small values of N. The crossover point between the 
+ripple-carry adder and the carry skip adder is dependent on technology considerations and is 
+normally situated 4 to 8 bits. The carry-skip circuitry consists of two logic gates. The AND gate 
+accepts the carry-in bit and compares it to the group propagate signal 
+
+**Carry skip adder is a fast adder compared to ripple carry adder when addition of large number of bits take place**
+
+**carry skip adder has O(√n) delay provides a good compromise in terms of delay, along with a simple and regular layout**
+
+**p<sub>[i,i+3]</sub>=p<sub>i+3</sub>.p<sub>i+2</sub>.p<sub>i+1</sub>   Eq (6)** 
+
+**using the individual propagate values. The output from the AND gate is ORed with cout of RCA 
+to produce a stage output of**
+
+**p<sub>[i,i+3]</sub>=p<sub>i+3</sub>.p<sub>i+2</sub>.p<sub>i+1</sub>   Eq (6)** 
+**carry = c<sub>i+4</sub> + p<sub>[i,i+3]</sub>.c<sub>i</sub> Eq (7) 
+
+**If p<sub>[i,i+3]</sub> =0, then the carry-out of the group is determined by the value of c<sub>i+4</sub>.**
+
+**However, if 
+p<sub>[i,i+3]</sub>=1 when the carry-in bit is c<sub>i</sub> =1, then the group carry-in is automatically sent to the next 
+group of adders.**
