@@ -5,18 +5,18 @@ study their charachteristics.
 
 In this repo, we implemented using verilog the following 32-bits signed integer adders:
 
-**1- Verilog (‘+’) version of adders
+**1- Verilog (‘+’) version of adders**
 
-**2- Ripple Carry Adder
+**2- Ripple Carry Adder**
 
-**3- Carry Save Adder
+**3- Carry Save Adder**
 
-**4- Carry Look-Ahead Adder
+**4- Carry Look-Ahead Adder**
 
-**5- Carry Increment adder
+**5- Carry Increment adder**
 
-**6- Carry Skip Adder
+**6- Carry Skip Adder**
 
-**7- Carry Bypass Adder
+**7- Carry Bypass Adder**
 
-**8- Carry Select Adder
+**8- Carry Select Adder**
