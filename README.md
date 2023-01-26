@@ -60,7 +60,7 @@ sequence and adding this sequence with RCA produces the resulting n + 1-bit valu
 
 **The main application of carry save algorithm is, well known for multiplier 
 architecture is used for efficient CMOS implementation of much wider variety of algorithms for 
-high speed digital signal processing **
+high speed digital signal processing**
 
 **CSA applied in the partial product line of array multipliers will speed up the carry propagation in the array.**
 
