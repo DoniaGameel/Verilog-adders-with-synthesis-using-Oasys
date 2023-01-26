@@ -93,7 +93,7 @@ The carry output of the (i-1)th stage is obtained from
   
  The sum output can be obtained using 
   
-S<sub>i</sub>= A<sub>i</sub> ⊕ B<sub>i</sub>C<sub>i-1</sub>  for i=0,1,2,3 Eq (5) **
+S<sub>i</sub>= A<sub>i</sub> ⊕ B<sub>i</sub>C<sub>i-1</sub>  for i=0,1,2,3 Eq (5) 
 
 **Carry look-ahead adder is designed to overcome the latency introduced by the rippling effect of the carry bits**
 
@@ -142,3 +142,41 @@ to produce a stage output of**
 **However, if 
 p<sub>[i,i+3]</sub>=1 when the carry-in bit is c<sub>i</sub> =1, then the group carry-in is automatically sent to the next 
 group of adders.**
+
+**The design schematic of Carry Skip Adder:**
+
+## Carry Bypass Adder (CByA)
+
+As in a ripple-carry adder, every full adder cell has to wait for the incoming carry before an 
+outgoing carry can be generated. This dependency can be eliminated by introducing an additional 
+bypass (skip) to speed up the operation of the adder. An incoming carry Ci,0=1 propagates 
+through complete adder chain and causes an outgoing carry C0,7=1 under the conditions that all 
+propagation signals are 1. When BP = P0P1P3P4P5P6P7P8 = 1, the incoming carry is forwarded 
+immediately to the next block through the bypass and if it is not the case, the carry is obtained via 
+the normal route. If (P0P1P3P4P5P6P7 = 1) then C0,7 = Ci,0 else either Delete or Generate 
+occurred.
+
+**When BP = P0P1P3P4P5P6P7P8 = 1, the incoming carry is forwarded 
+immediately to the next block through the bypass and if it is not the case, the carry is obtained via 
+the normal route. If (P0P1P3P4P5P6P7 = 1) then C0,7 = Ci,0 else either Delete or Generate 
+occurred.**
+
+**The design schematic of Carry Bypass Adder:**
+
+##  Carry Select Adder (CSelA):
+
+A carry-select adder is divided into sectors, each of which – except for the least-significant – 
+performs two additions in parallel, one assuming a carry-in of zero, the other a carry-in of one. A 
+four bit carry select adder generally consists of two ripple carry adders and a multiplexer.
+
+Adding two n-bit 
+numbers with a carry select adder is done with two adders (two ripple carry adders) in order to 
+perform the calculation twice, one time with the assumption of the carry being zero and the other 
+assuming one. After the two results are calculated, the correct sum, as well as the correct carry, is 
+then selected with the multiplexer once the correct carry is known.
+
+**The carry-select adder is simple but rather fast, having a gate level depth of .**
+
+**A carry-select adder speeds 40% to 90%faster than RCA by performing additions in parallel and reducing the maximum carry path.**
+
+**The design schematic of Carry Bypass Adder:**
