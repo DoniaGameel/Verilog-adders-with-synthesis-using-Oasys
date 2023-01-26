@@ -49,6 +49,8 @@ The ripple carry adder is constructed by cascading full adders (FA) blocks in se
 
 **The design schematic of RCA:**
 
+![My Image](Schematic_design/RCA.png)
+
 ## Carary Save Adder (CSA)
 
 The carry-save adder reduces the addition of 3 numbers to the addition of 2 numbers. The 
@@ -65,6 +67,8 @@ high speed digital signal processing**
 **CSA applied in the partial product line of array multipliers will speed up the carry propagation in the array.**
 
 **The design schematic of CSA:**
+
+![My Image](Schematic_design/CSA.png)
 
 ## Carry Look-Ahead Adder (CLA)
 
@@ -101,6 +105,8 @@ S<sub>i</sub>= A<sub>i</sub> ⊕ B<sub>i</sub>C<sub>i-1</sub>  for i=0,1,2,3 Eq 
 
 **The design schematic of 8 bit look ahead adder using two four bit look ahead block:**
 
+![My Image](Schematic_design/CLA.png)
+
 ## Carry Increment Adder (CIA)
 
 An 8-bit increment adder includes two RCA (Ripple carry adder) of four bit each. The first ripple 
@@ -115,6 +121,8 @@ the half adder in carry increment block performs the increment operation. Hence 
 of the second RCA is taken through the carry increment block.
 
 **The design schematic of Carry Increment Adder:**
+
+![My Image](Schematic_design/CIA.png)
 
 ## Carry Skip Adder (CSkA)
 
@@ -145,6 +153,8 @@ group of adders.**
 
 **The design schematic of Carry Skip Adder:**
 
+![My Image](Schematic_design/CSkA.png)
+
 ## Carry Bypass Adder (CByA)
 
 As in a ripple-carry adder, every full adder cell has to wait for the incoming carry before an 
@@ -163,6 +173,8 @@ occurred.**
 
 **The design schematic of Carry Bypass Adder:**
 
+![My Image](Schematic_design/CByA.png)
+
 ##  Carry Select Adder (CSelA):
 
 A carry-select adder is divided into sectors, each of which – except for the least-significant – 
@@ -180,3 +192,5 @@ then selected with the multiplexer once the correct carry is known.
 **A carry-select adder speeds 40% to 90%faster than RCA by performing additions in parallel and reducing the maximum carry path.**
 
 **The design schematic of Carry Bypass Adder:**
+
+![My Image](Schematic_design/CSelA.png)
