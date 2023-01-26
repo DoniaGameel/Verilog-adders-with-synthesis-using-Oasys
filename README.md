@@ -47,7 +47,7 @@ The ripple carry adder is constructed by cascading full adders (FA) blocks in se
 
 **The advantages of the RCA are lower power consumption as well as compact layout giving smaller chip area.**
 
-**The design schematic of RCA: **
+**The design schematic of RCA:**
 
 ## Carary Save Adder
 
@@ -64,7 +64,7 @@ high speed digital signal processing **
 
 **CSA applied in the partial product line of array multipliers will speed up the carry propagation in the array.**
 
-**The design schematic of CSA: **
+**The design schematic of CSA:**
 
 ## Carry Look-Ahead Adder
 
@@ -79,24 +79,24 @@ look ahead carry unit to the next. Finally, within each group that receives a ca
 propagates slowly within the digits in that group
 
 **his adder consists of three stages: a propagate block/ generate block, a sum generator and carry 
-generator. The generate block can be realized using the expression 
+generator. The generate block can be realized using the expression** 
 
- G<sub>i<sub>= A<sub>i<sub>.B<sub>i<sub>  for i=0,1,2,3 Eq (2) 
+ G<sub>i</sub>= A<sub>i</sub>.B<sub>i</sub>  for i=0,1,2,3 Eq (2) 
   
  Similarly the propagate block can be realized using the expression 
   
-P<sub>i<sub>= A<sub>i<sub>⊕B<sub>i<sub>   for i=0,1,2,3 Eq (3) 
+P<sub>i</sub>= A<sub>i</sub>⊕B<sub>i</sub>   for i=0,1,2,3 Eq (3) 
   
 The carry output of the (i-1)th stage is obtained from 
   
- C<sub>i(Cout)<sub>= G<sub>i<sub> + P<sub>i<sub> C<sub>i-1<sub>  for i=0,1,2,3 Eq (4) 
+ C<sub>i(Cout)</sub>= G<sub>i</sub> + P<sub>i</sub> C<sub>i-1</sub>  for i=0,1,2,3 Eq (4) 
   
  The sum output can be obtained using 
   
-S<sub>i<sub>= A<sub>i<sub> ⊕ B<sub>i<sub>C<sub>i-1<sub>  for i=0,1,2,3 Eq (5) **
+S<sub>i</sub>= A<sub>i</sub> ⊕ B<sub>i</sub>C<sub>i-1</sub>  for i=0,1,2,3 Eq (5) **
 
 **Carry look-ahead adder is designed to overcome the latency introduced by the rippling effect of the carry bits**
 
 **The propagation delay occurred in the parallel adders can be eliminated by carry look ahead adder.**
 
-**The design schematic of 8 bit look ahead adder using two four bit look ahead block: **
+**The design schematic of 8 bit look ahead adder using two four bit look ahead block:**
