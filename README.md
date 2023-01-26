@@ -213,19 +213,6 @@ Testbench prints **“TestCase#i: success”** on success and
 prints the **“TestCase#i: failed with input X and Y and Output Z and overflow
 status N”** , X,Y,Z,N in blue should be replaced by your values.
 
-## How to test the modules?
-
-1-Open Modelsim.
-
-2-Create project
-
-3-Add files in helping_modules folder to the project
-
-4-Add files in verilog_adders_pre_synthesis folder to the project
-
-5-Add file 'Adders_tb.v' from test_benches folder to the project 
-
-6-Simulate 'Adders_tb.v' file using modelsim
 
 ## Synthesis using Oasys:
 
@@ -263,3 +250,38 @@ detailed Synthesis results of each adder are in 'post_synthesis_detailed_reports
 
 **Maximum Power** : Verilog Adder plus
 
+## Floating point adder design (standard IEEE):
+
+1- Separate mantissas, exponents, signs bits of both inputs
+
+2- In case only one of the inputs is -ve, we transform its mantissa to the 2’s complement form, other wise we use its mantissa directly
+
+3- For input with lower exponent, the mantissa is right shifted to make the 2 exponents have the same value
+
+4- Add both mantissas together using the carry increment adder
+
+5- if the sum is negative, transform it to the 2’s complement form
+
+6- If cout = 1, the result will be right shifted by 1 bit and the exponent will be increased by 1
+
+7- Normalize the result by left shifting the mantissa sum till leading one and subtract number of bits shifted from the exponent
+
+## Adder used in floating point adder
+
+From the synthesis reports, the carry select adder has the lowest propagation delay, below that comes the carry increment with small difference in time but quiet big difference in area and power consumption, so as a combination of both time and power we decided to use the **carry increment adder** in the floating point adder to minimize the delay and power consumption
+
+## How to test the modules?
+
+1-Open Modelsim.
+
+2-Create project
+
+3-Add files in helping_modules folder to the project
+
+4-Add files in verilog_adders_pre_synthesis folder to the project
+
+5-Add file 'Adders_tb.v' & 'floating_adder_tb-1.v' from test_benches folder to the project 
+
+6-Simulate 'Adders_tb.v' file using modelsim to test integer adders
+
+7-Simulate 'floating_adder_tb-1.v' file using modelsim to test floating point adder
