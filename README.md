@@ -3,6 +3,11 @@ Adders are the building blocks of all “compute” units. Their performance imp
 chip. This why in this mini project, we will explore different implementations of adders and
 study their charachteristics.
 
+
+The prerequisite of 
+the adder is that it is primarily fast and secondarily efficient in terms of power consumption and chip area.
+
+
 In this repo, we implemented using verilog the following 32-bits signed integer adders:
 
 **1- Verilog (‘+’) version of adders**
