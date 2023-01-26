@@ -285,3 +285,18 @@ From the synthesis reports, the carry select adder has the lowest propagation de
 6-Simulate 'Adders_tb.v' file using modelsim to test integer adders
 
 7-Simulate 'floating_adder_tb-1.v' file using modelsim to test floating point adder
+
+## DRC Report of floating point adder:
+
+Results are in 'DRC_Report_Float_Adder' folder
+
+![My Image](DRC_Report_Float_Adder/1.png)
+
+![My Image](DRC_Report_Float_Adder/2.png)
+
+## LVC Report of floating point adder:
+
+Results are in 'LVC_Report_Float_Adder' folder
+
+![My Image](LVC_Report_Float_Adder/1.png)
+
