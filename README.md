@@ -298,5 +298,5 @@ Results are in 'DRC_Report_Float_Adder' folder
 
 Results are in 'LVC_Report_Float_Adder' folder
 
-![My Image](LVC_Report_Float_Adder/1.png)
+![My Image](LVS_Report_Float_Adder/1.png)
 
