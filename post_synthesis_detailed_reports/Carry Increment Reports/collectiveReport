@@ -1,0 +1,49 @@
+Report Physical info: 
+------------------------+---------------------+-----------+------------
+                        |                     |Area (squm)|Leakage (uW)
+------------------------+---------------------+-----------+------------
+Design Name             |carry_increment_adder|           |            
+  Total Instances       |                  206|        264|       6.022
+    Macros              |                    0|          0|       0.000
+    Pads                |                    0|          0|       0.000
+    Phys                |                    0|          0|       0.000
+    Blackboxes          |                    0|          0|       0.000
+    Cells               |                  206|        264|       6.022
+      Buffers           |                    0|          0|       0.000
+      Inverters         |                    3|          2|       0.043
+      Clock-Gates       |                    0|          0|       0.000
+      Combinational     |                  203|        262|       5.979
+      Latches           |                    0|          0|       0.000
+      FlipFlops         |                    0|          0|       0.000
+       Single-Bit FF    |                    0|          0|       0.000
+       Multi-Bit FF     |                    0|          0|       0.000
+       Clock-Gated      |                    0|           |            
+       Bits             |                    0|          0|       0.000
+         Load-Enabled   |                    0|           |            
+         Clock-Gated    |                    0|           |            
+  Tristate Pin Count    |                    0|           |            
+Physical Info           |Placed               |           |            
+  Chip Size (mm x mm)   |0.081 x 0.081        |       6555|            
+  Fixed Cell Area       |                     |          0|            
+    Phys Only           |                    0|          0|            
+  Placeable Area        |                     |        410|            
+  Movable Cell Area     |                     |        264|            
+  Utilization (%)       |                   64|           |            
+  Chip Utilization (%)  |                   64|           |            
+  Total Wire Length (mm)|                4.171|           |            
+  Longest Wire (mm)     |                0.044|           |            
+  Average Wire (mm)     |                0.042|           |            
+------------------------+---------------------+-----------+------------
+Report Path Groups: 
+-----+-------+------+---------+---------
+     | Path  |Weight|Critical |Worst    
+     | Group |      |Range(ps)|Slack(ps)
+-----+-------+------+---------+---------
+1    |default| 1.000|      0.0|<ill>    
+2    |I2R    | 1.000|      0.0|<ill>    
+3    |I2O    | 1.000|      0.0|  17023.4
+4    |R2O    | 1.000|      0.0|<ill>    
+-----+-------+------+---------+---------
+20   |              |                    |                     |                   |                 
+21   |*TOTAL        |           26.596188|            16.482044|           6.022143|        49.100376
+-----+--------------+--------------------+---------------------+-------------------+-----------------

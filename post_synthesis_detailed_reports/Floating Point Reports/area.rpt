@@ -1,0 +1,341 @@
+Report Instance Areas: 
+-----+------------------+----------------------------+-----+---------
+     |Instance          |Module                      |Cells|Cell Area
+-----+------------------+----------------------------+-----+---------
+1    |top               |                            |  878|     1246
+2    |  MA2Comp         |Complement2s__0_527         |   47|       57
+3    |  MB2Comp         |Complement2s__0_529         |   47|       57
+4    |  sub             |Subtractor                  |   58|       68
+5    |    S             |Subtractor_N_Bit            |   38|       38
+6    |      H1          |half_sub                    |    3|        3
+7    |      genblk1_1_FS|full_sub__0_945             |    5|        5
+8    |      genblk1_2_FS|full_sub__0_949             |    5|        5
+9    |      genblk1_3_FS|full_sub__0_953             |    5|        5
+10   |      genblk1_4_FS|full_sub__0_957             |    5|        5
+11   |      genblk1_5_FS|full_sub__0_961             |    5|        5
+12   |      genblk1_6_FS|full_sub__0_965             |    5|        5
+13   |      genblk1_7_FS|full_sub                    |    5|        5
+14   |    C             |Complement2s__parameterized0|   13|       17
+15   |  addertop        |Mux_N__0_941                |   24|       45
+16   |  rightshiftertop |Mux_N                       |   24|       45
+17   |  RSH             |BarrelShifter__0_772        |  145|      251
+18   |    M1            |Mux__0_771                  |    1|        2
+19   |    genblk1_0_M   |Mux__0_769                  |    1|        2
+20   |    genblk1_1_M   |Mux__0_767                  |    1|        2
+21   |    genblk1_2_M   |Mux__0_765                  |    1|        2
+22   |    genblk1_3_M   |Mux__0_763                  |    1|        2
+23   |    genblk1_4_M   |Mux__0_761                  |    1|        2
+24   |    genblk1_5_M   |Mux__0_759                  |    1|        2
+25   |    genblk1_6_M   |Mux__0_757                  |    1|        2
+26   |    genblk1_7_M   |Mux__0_755                  |    1|        2
+27   |    genblk1_8_M   |Mux__0_753                  |    1|        2
+28   |    genblk1_9_M   |Mux__0_751                  |    1|        2
+29   |    genblk1_10_M  |Mux__0_749                  |    1|        2
+30   |    genblk1_11_M  |Mux__0_747                  |    1|        2
+31   |    genblk1_12_M  |Mux__0_745                  |    1|        2
+32   |    genblk1_13_M  |Mux__0_743                  |    1|        2
+33   |    genblk1_14_M  |Mux__0_741                  |    1|        2
+34   |    genblk1_15_M  |Mux__0_739                  |    1|        2
+35   |    genblk1_16_M  |Mux__0_737                  |    1|        2
+36   |    genblk1_17_M  |Mux__0_735                  |    1|        2
+37   |    genblk1_18_M  |Mux__0_733                  |    1|        2
+38   |    genblk1_19_M  |Mux__0_731                  |    1|        2
+39   |    genblk1_20_M  |Mux__0_729                  |    1|        2
+40   |    genblk1_21_M  |Mux__0_727                  |    1|        2
+41   |    genblk1_22_M  |Mux__0_725                  |    1|        2
+42   |    genblk3_22_M3 |Mux__0_723                  |    1|        2
+43   |    genblk3_23_M3 |Mux__0_721                  |    1|        2
+44   |    genblk2_0_M2  |Mux__0_719                  |    1|        2
+45   |    genblk2_1_M2  |Mux__0_717                  |    1|        2
+46   |    genblk2_2_M2  |Mux__0_715                  |    1|        2
+47   |    genblk2_3_M2  |Mux__0_713                  |    1|        2
+48   |    genblk2_4_M2  |Mux__0_711                  |    1|        2
+49   |    genblk2_5_M2  |Mux__0_709                  |    1|        2
+50   |    genblk2_6_M2  |Mux__0_707                  |    1|        2
+51   |    genblk2_7_M2  |Mux__0_705                  |    1|        2
+52   |    genblk2_8_M2  |Mux__0_703                  |    1|        2
+53   |    genblk2_9_M2  |Mux__0_701                  |    1|        2
+54   |    genblk2_10_M2 |Mux__0_699                  |    1|        2
+55   |    genblk2_11_M2 |Mux__0_697                  |    1|        2
+56   |    genblk2_12_M2 |Mux__0_695                  |    1|        2
+57   |    genblk2_13_M2 |Mux__0_693                  |    1|        2
+58   |    genblk2_14_M2 |Mux__0_691                  |    1|        2
+59   |    genblk2_15_M2 |Mux__0_689                  |    1|        2
+60   |    genblk2_16_M2 |Mux__0_687                  |    1|        2
+61   |    genblk2_17_M2 |Mux__0_685                  |    1|        2
+62   |    genblk2_18_M2 |Mux__0_683                  |    1|        2
+63   |    genblk2_19_M2 |Mux__0_681                  |    1|        2
+64   |    genblk2_20_M2 |Mux__0_679                  |    1|        2
+65   |    genblk2_21_M2 |Mux__0_677                  |    1|        2
+66   |    genblk5_20_M5 |Mux__0_675                  |    1|        2
+67   |    genblk5_21_M5 |Mux__0_673                  |    1|        2
+68   |    genblk5_22_M5 |Mux__0_671                  |    1|        2
+69   |    genblk5_23_M5 |Mux__0_669                  |    1|        2
+70   |    genblk4_0_M4  |Mux__0_667                  |    1|        2
+71   |    genblk4_1_M4  |Mux__0_665                  |    1|        2
+72   |    genblk4_2_M4  |Mux__0_663                  |    1|        2
+73   |    genblk4_3_M4  |Mux__0_661                  |    1|        2
+74   |    genblk4_4_M4  |Mux__0_659                  |    1|        2
+75   |    genblk4_5_M4  |Mux__0_657                  |    1|        2
+76   |    genblk4_6_M4  |Mux__0_655                  |    1|        2
+77   |    genblk4_7_M4  |Mux__0_653                  |    1|        2
+78   |    genblk4_8_M4  |Mux__0_651                  |    1|        2
+79   |    genblk4_9_M4  |Mux__0_649                  |    1|        2
+80   |    genblk4_10_M4 |Mux__0_647                  |    1|        2
+81   |    genblk4_11_M4 |Mux__0_645                  |    1|        2
+82   |    genblk4_12_M4 |Mux__0_643                  |    1|        2
+83   |    genblk4_13_M4 |Mux__0_641                  |    1|        2
+84   |    genblk4_14_M4 |Mux__0_639                  |    1|        2
+85   |    genblk4_15_M4 |Mux__0_637                  |    1|        2
+86   |    genblk4_16_M4 |Mux__0_635                  |    1|        2
+87   |    genblk4_17_M4 |Mux__0_633                  |    1|        2
+88   |    genblk4_18_M4 |Mux__0_631                  |    1|        2
+89   |    genblk4_19_M4 |Mux__0_629                  |    1|        2
+90   |    genblk7_16_M7 |Mux__0_627                  |    1|        2
+91   |    genblk7_17_M7 |Mux__0_625                  |    1|        2
+92   |    genblk7_18_M7 |Mux__0_623                  |    1|        2
+93   |    genblk7_19_M7 |Mux__0_621                  |    1|        2
+94   |    genblk7_20_M7 |Mux__0_619                  |    1|        2
+95   |    genblk7_21_M7 |Mux__0_617                  |    1|        2
+96   |    genblk7_22_M7 |Mux__0_615                  |    1|        2
+97   |    genblk7_23_M7 |Mux__0_613                  |    1|        2
+98   |    genblk6_0_M6  |Mux__0_611                  |    1|        2
+99   |    genblk6_1_M6  |Mux__0_609                  |    1|        2
+100  |    genblk6_2_M6  |Mux__0_607                  |    1|        2
+101  |    genblk6_3_M6  |Mux__0_605                  |    1|        2
+102  |    genblk6_4_M6  |Mux__0_603                  |    1|        2
+103  |    genblk6_5_M6  |Mux__0_601                  |    1|        2
+104  |    genblk6_6_M6  |Mux__0_599                  |    1|        2
+105  |    genblk6_7_M6  |Mux__0_597                  |    1|        2
+106  |    genblk6_8_M6  |Mux__0_595                  |    1|        2
+107  |    genblk6_9_M6  |Mux__0_593                  |    1|        2
+108  |    genblk6_10_M6 |Mux__0_591                  |    1|        2
+109  |    genblk6_11_M6 |Mux__0_589                  |    1|        2
+110  |    genblk6_12_M6 |Mux__0_587                  |    1|        2
+111  |    genblk6_13_M6 |Mux__0_585                  |    1|        2
+112  |    genblk6_14_M6 |Mux__0_583                  |    1|        2
+113  |    genblk6_15_M6 |Mux__0_581                  |    1|        2
+114  |    b13_8_M9      |Mux__0_579                  |    1|        2
+115  |    b13_9_M9      |Mux__0_577                  |    1|        2
+116  |    b13_10_M9     |Mux__0_575                  |    1|        2
+117  |    b13_11_M9     |Mux__0_573                  |    1|        2
+118  |    b13_12_M9     |Mux__0_571                  |    1|        2
+119  |    b13_13_M9     |Mux__0_569                  |    1|        2
+120  |    b13_14_M9     |Mux__0_567                  |    1|        2
+121  |    b13_15_M9     |Mux__0_565                  |    1|        2
+122  |    b13_16_M9     |Mux__0_563                  |    1|        2
+123  |    b13_17_M9     |Mux__0_561                  |    1|        2
+124  |    b13_18_M9     |Mux__0_559                  |    1|        2
+125  |    b13_19_M9     |Mux__0_557                  |    1|        2
+126  |    b13_20_M9     |Mux__0_555                  |    1|        2
+127  |    b13_21_M9     |Mux__0_553                  |    1|        2
+128  |    b13_22_M9     |Mux__0_551                  |    1|        2
+129  |    b13_23_M9     |Mux__0_549                  |    1|        2
+130  |    genblk8_0_M8  |Mux__0_547                  |    1|        2
+131  |    genblk8_1_M8  |Mux__0_545                  |    1|        2
+132  |    genblk8_2_M8  |Mux__0_543                  |    1|        2
+133  |    genblk8_3_M8  |Mux__0_541                  |    1|        2
+134  |    genblk8_4_M8  |Mux__0_539                  |    1|        2
+135  |    genblk8_5_M8  |Mux__0_537                  |    1|        2
+136  |    genblk8_6_M8  |Mux__0_535                  |    1|        2
+137  |    genblk8_7_M8  |Mux__0_533                  |    1|        2
+138  |  A1              |carry_increment_adder       |  129|      165
+139  |    genblk1_5_RCA |ripple_adder__0_867         |   14|       18
+140  |      genblk1_0_FA|full_adder__0_866           |    2|        3
+141  |      genblk1_1_FA|full_adder__0_862           |    4|        5
+142  |      genblk1_2_FA|full_adder__0_858           |    4|        5
+143  |      genblk1_3_FA|full_adder__0_854           |    4|        5
+144  |    genblk1_4_RCA |ripple_adder__0_885         |   14|       18
+145  |      genblk1_0_FA|full_adder__0_884           |    2|        3
+146  |      genblk1_1_FA|full_adder__0_880           |    4|        5
+147  |      genblk1_2_FA|full_adder__0_876           |    4|        5
+148  |      genblk1_3_FA|full_adder__0_872           |    4|        5
+149  |    genblk1_3_RCA |ripple_adder__0_903         |   14|       18
+150  |      genblk1_0_FA|full_adder__0_902           |    2|        3
+151  |      genblk1_1_FA|full_adder__0_898           |    4|        5
+152  |      genblk1_2_FA|full_adder__0_894           |    4|        5
+153  |      genblk1_3_FA|full_adder__0_890           |    4|        5
+154  |    genblk1_2_RCA |ripple_adder__0_921         |   14|       18
+155  |      genblk1_0_FA|full_adder__0_920           |    2|        3
+156  |      genblk1_1_FA|full_adder__0_916           |    4|        5
+157  |      genblk1_2_FA|full_adder__0_912           |    4|        5
+158  |      genblk1_3_FA|full_adder__0_908           |    4|        5
+159  |    genblk1_1_RCA |ripple_adder__0_939         |   14|       18
+160  |      genblk1_0_FA|full_adder__0_938           |    2|        3
+161  |      genblk1_1_FA|full_adder__0_934           |    4|        5
+162  |      genblk1_2_FA|full_adder__0_930           |    4|        5
+163  |      genblk1_3_FA|full_adder__0_926           |    4|        5
+164  |    genblk1_0_RCA |ripple_adder                |   14|       18
+165  |      genblk1_0_FA|full_adder__0_841           |    2|        3
+166  |      genblk1_1_FA|full_adder__0_845           |    4|        5
+167  |      genblk1_2_FA|full_adder__0_849           |    4|        5
+168  |      genblk1_3_FA|full_adder                  |    4|        5
+169  |    genblk1_1_inc |incrementor__0_795          |    9|       12
+170  |      genblk1_0_HA|half_adder__0_794           |    2|        3
+171  |      genblk1_1_HA|half_adder__0_791           |    2|        3
+172  |      genblk1_2_HA|half_adder__0_788           |    2|        3
+173  |      genblk1_3_HA|half_adder__0_785           |    2|        3
+174  |    genblk1_2_inc |incrementor__0_809          |    9|       12
+175  |      genblk1_0_HA|half_adder__0_808           |    2|        3
+176  |      genblk1_1_HA|half_adder__0_805           |    2|        3
+177  |      genblk1_2_HA|half_adder__0_802           |    2|        3
+178  |      genblk1_3_HA|half_adder__0_799           |    2|        3
+179  |    genblk1_3_inc |incrementor__0_823          |    9|       12
+180  |      genblk1_0_HA|half_adder__0_822           |    2|        3
+181  |      genblk1_1_HA|half_adder__0_819           |    2|        3
+182  |      genblk1_2_HA|half_adder__0_816           |    2|        3
+183  |      genblk1_3_HA|half_adder__0_813           |    2|        3
+184  |    genblk1_4_inc |incrementor__0_837          |    9|       12
+185  |      genblk1_0_HA|half_adder__0_836           |    2|        3
+186  |      genblk1_1_HA|half_adder__0_833           |    2|        3
+187  |      genblk1_2_HA|half_adder__0_830           |    2|        3
+188  |      genblk1_3_HA|half_adder__0_827           |    2|        3
+189  |    genblk1_5_inc |incrementor                 |    9|       12
+190  |      genblk1_0_HA|half_adder__0_775           |    2|        3
+191  |      genblk1_1_HA|half_adder__0_778           |    2|        3
+192  |      genblk1_2_HA|half_adder__0_781           |    2|        3
+193  |      genblk1_3_HA|half_adder                  |    2|        3
+194  |  finexp          |ControlledIncrementor       |   10|       22
+195  |  finalshifter    |BarrelShifter               |   25|       44
+196  |    M1            |Mux__0_49                   |    2|        1
+197  |    genblk1_0_M   |Mux__0_51                   |    1|        2
+198  |    genblk1_1_M   |Mux__0_53                   |    1|        2
+199  |    genblk1_2_M   |Mux__0_55                   |    1|        2
+200  |    genblk1_3_M   |Mux__0_57                   |    1|        2
+201  |    genblk1_4_M   |Mux__0_59                   |    1|        2
+202  |    genblk1_5_M   |Mux__0_61                   |    1|        2
+203  |    genblk1_6_M   |Mux__0_63                   |    1|        2
+204  |    genblk1_7_M   |Mux__0_65                   |    1|        2
+205  |    genblk1_8_M   |Mux__0_67                   |    1|        2
+206  |    genblk1_9_M   |Mux__0_69                   |    1|        2
+207  |    genblk1_10_M  |Mux__0_71                   |    1|        2
+208  |    genblk1_11_M  |Mux__0_73                   |    1|        2
+209  |    genblk1_12_M  |Mux__0_75                   |    1|        2
+210  |    genblk1_13_M  |Mux__0_77                   |    1|        2
+211  |    genblk1_14_M  |Mux__0_79                   |    1|        2
+212  |    genblk1_15_M  |Mux__0_81                   |    1|        2
+213  |    genblk1_16_M  |Mux__0_83                   |    1|        2
+214  |    genblk1_17_M  |Mux__0_85                   |    1|        2
+215  |    genblk1_18_M  |Mux__0_87                   |    1|        2
+216  |    genblk1_19_M  |Mux__0_89                   |    1|        2
+217  |    genblk1_20_M  |Mux__0_91                   |    1|        2
+218  |    genblk1_21_M  |Mux__0_93                   |    1|        2
+219  |    genblk1_22_M  |Mux__0_95                   |    1|        2
+220  |  finakM2Comp     |Complement2s                |   47|       59
+221  |  normalize       |BarrelLeftShifter           |  146|      198
+222  |    M1            |Mux__0_289                  |    2|        1
+223  |    genblk1_22_M  |Mux__0_293                  |    1|        2
+224  |    genblk1_21_M  |Mux__0_295                  |    1|        2
+225  |    genblk1_20_M  |Mux__0_297                  |    1|        2
+226  |    genblk1_19_M  |Mux__0_299                  |    1|        2
+227  |    genblk1_18_M  |Mux__0_301                  |    1|        2
+228  |    genblk1_17_M  |Mux__0_303                  |    1|        2
+229  |    genblk1_16_M  |Mux__0_305                  |    1|        2
+230  |    genblk1_15_M  |Mux__0_307                  |    1|        2
+231  |    genblk1_14_M  |Mux__0_309                  |    1|        2
+232  |    genblk1_13_M  |Mux__0_311                  |    1|        2
+233  |    genblk1_12_M  |Mux__0_313                  |    1|        2
+234  |    genblk1_11_M  |Mux__0_315                  |    1|        2
+235  |    genblk1_10_M  |Mux__0_317                  |    1|        2
+236  |    genblk1_9_M   |Mux__0_319                  |    1|        2
+237  |    genblk1_8_M   |Mux__0_321                  |    1|        2
+238  |    genblk1_7_M   |Mux__0_323                  |    1|        2
+239  |    genblk1_6_M   |Mux__0_325                  |    1|        2
+240  |    genblk1_5_M   |Mux__0_327                  |    1|        2
+241  |    genblk1_4_M   |Mux__0_329                  |    1|        2
+242  |    genblk1_3_M   |Mux__0_331                  |    1|        2
+243  |    genblk1_2_M   |Mux__0_333                  |    1|        2
+244  |    genblk1_1_M   |Mux__0_335                  |    1|        2
+245  |    genblk3_1_M3  |Mux__0_337                  |    2|        1
+246  |    genblk3_0_M3  |Mux__0_339                  |    2|        1
+247  |    genblk2_22_M2 |Mux__0_343                  |    1|        2
+248  |    genblk2_21_M2 |Mux__0_345                  |    1|        2
+249  |    genblk2_20_M2 |Mux__0_347                  |    1|        2
+250  |    genblk2_19_M2 |Mux__0_349                  |    1|        2
+251  |    genblk2_18_M2 |Mux__0_351                  |    1|        2
+252  |    genblk2_17_M2 |Mux__0_353                  |    1|        2
+253  |    genblk2_16_M2 |Mux__0_355                  |    1|        2
+254  |    genblk2_15_M2 |Mux__0_357                  |    1|        2
+255  |    genblk2_14_M2 |Mux__0_359                  |    1|        2
+256  |    genblk2_13_M2 |Mux__0_361                  |    1|        2
+257  |    genblk2_12_M2 |Mux__0_363                  |    1|        2
+258  |    genblk2_11_M2 |Mux__0_365                  |    1|        2
+259  |    genblk2_10_M2 |Mux__0_367                  |    1|        2
+260  |    genblk2_9_M2  |Mux__0_369                  |    1|        2
+261  |    genblk2_8_M2  |Mux__0_371                  |    1|        2
+262  |    genblk2_7_M2  |Mux__0_373                  |    1|        2
+263  |    genblk2_6_M2  |Mux__0_375                  |    1|        2
+264  |    genblk2_5_M2  |Mux__0_377                  |    1|        2
+265  |    genblk2_4_M2  |Mux__0_379                  |    1|        2
+266  |    genblk2_3_M2  |Mux__0_381                  |    1|        2
+267  |    genblk2_2_M2  |Mux__0_383                  |    1|        2
+268  |    genblk5_3_M5  |Mux__0_385                  |    2|        1
+269  |    genblk5_2_M5  |Mux__0_387                  |    2|        1
+270  |    genblk5_1_M5  |Mux__0_389                  |    2|        1
+271  |    genblk5_0_M5  |Mux__0_391                  |    2|        1
+272  |    genblk4_22_M4 |Mux__0_395                  |    1|        2
+273  |    genblk4_21_M4 |Mux__0_397                  |    1|        2
+274  |    genblk4_20_M4 |Mux__0_399                  |    1|        2
+275  |    genblk4_19_M4 |Mux__0_401                  |    1|        2
+276  |    genblk4_18_M4 |Mux__0_403                  |    1|        2
+277  |    genblk4_17_M4 |Mux__0_405                  |    1|        2
+278  |    genblk4_16_M4 |Mux__0_407                  |    1|        2
+279  |    genblk4_15_M4 |Mux__0_409                  |    1|        2
+280  |    genblk4_14_M4 |Mux__0_411                  |    1|        2
+281  |    genblk4_13_M4 |Mux__0_413                  |    1|        2
+282  |    genblk4_12_M4 |Mux__0_415                  |    1|        2
+283  |    genblk4_11_M4 |Mux__0_417                  |    1|        2
+284  |    genblk4_10_M4 |Mux__0_419                  |    1|        2
+285  |    genblk4_9_M4  |Mux__0_421                  |    1|        2
+286  |    genblk4_8_M4  |Mux__0_423                  |    1|        2
+287  |    genblk4_7_M4  |Mux__0_425                  |    1|        2
+288  |    genblk4_6_M4  |Mux__0_427                  |    1|        2
+289  |    genblk4_5_M4  |Mux__0_429                  |    1|        2
+290  |    genblk4_4_M4  |Mux__0_431                  |    1|        2
+291  |    genblk7_7_M7  |Mux__0_433                  |    2|        1
+292  |    genblk7_6_M7  |Mux__0_435                  |    2|        1
+293  |    genblk7_5_M7  |Mux__0_437                  |    2|        1
+294  |    genblk7_4_M7  |Mux__0_439                  |    2|        1
+295  |    genblk7_3_M7  |Mux__0_441                  |    2|        1
+296  |    genblk7_2_M7  |Mux__0_443                  |    2|        1
+297  |    genblk7_1_M7  |Mux__0_445                  |    2|        1
+298  |    genblk7_0_M7  |Mux__0_447                  |    2|        1
+299  |    genblk6_22_M6 |Mux__0_451                  |    1|        2
+300  |    genblk6_21_M6 |Mux__0_453                  |    1|        2
+301  |    genblk6_20_M6 |Mux__0_455                  |    1|        2
+302  |    genblk6_19_M6 |Mux__0_457                  |    1|        2
+303  |    genblk6_18_M6 |Mux__0_459                  |    1|        2
+304  |    genblk6_17_M6 |Mux__0_461                  |    1|        2
+305  |    genblk6_16_M6 |Mux__0_463                  |    1|        2
+306  |    genblk6_15_M6 |Mux__0_465                  |    1|        2
+307  |    genblk6_14_M6 |Mux__0_467                  |    1|        2
+308  |    genblk6_13_M6 |Mux__0_469                  |    1|        2
+309  |    genblk6_12_M6 |Mux__0_471                  |    1|        2
+310  |    genblk6_11_M6 |Mux__0_473                  |    1|        2
+311  |    genblk6_10_M6 |Mux__0_475                  |    1|        2
+312  |    genblk6_9_M6  |Mux__0_477                  |    1|        2
+313  |    genblk6_8_M6  |Mux__0_479                  |    1|        2
+314  |    b13_15_M9     |Mux__0_481                  |    2|        1
+315  |    b13_14_M9     |Mux__0_483                  |    2|        1
+316  |    b13_13_M9     |Mux__0_485                  |    2|        1
+317  |    b13_12_M9     |Mux__0_487                  |    2|        1
+318  |    b13_11_M9     |Mux__0_489                  |    2|        1
+319  |    b13_10_M9     |Mux__0_491                  |    2|        1
+320  |    b13_9_M9      |Mux__0_493                  |    2|        1
+321  |    b13_8_M9      |Mux__0_495                  |    2|        1
+322  |    b13_7_M9      |Mux__0_497                  |    2|        1
+323  |    b13_6_M9      |Mux__0_499                  |    2|        1
+324  |    b13_5_M9      |Mux__0_501                  |    2|        1
+325  |    b13_4_M9      |Mux__0_503                  |    2|        1
+326  |    b13_3_M9      |Mux__0_505                  |    2|        1
+327  |    b13_2_M9      |Mux__0_507                  |    2|        1
+328  |    b13_1_M9      |Mux__0_509                  |    2|        1
+329  |    b13_0_M9      |Mux__0_511                  |    2|        1
+330  |    genblk8_22_M8 |Mux__0_515                  |    1|        2
+331  |    genblk8_21_M8 |Mux__0_517                  |    1|        2
+332  |    genblk8_20_M8 |Mux__0_519                  |    1|        2
+333  |    genblk8_19_M8 |Mux__0_521                  |    1|        2
+334  |    genblk8_18_M8 |Mux__0_523                  |    1|        2
+335  |    genblk8_17_M8 |Mux__0_525                  |    1|        2
+336  |    genblk8_16_M8 |Mux                         |    1|        2
+-----+------------------+----------------------------+-----+---------

@@ -1,0 +1,49 @@
+Report Physical info: 
+------------------------+-------------+-----------+------------
+                        |             |Area (squm)|Leakage (uW)
+------------------------+-------------+-----------+------------
+Design Name             |ripple_adder |           |            
+  Total Instances       |          164|        208|       4.736
+    Macros              |            0|          0|       0.000
+    Pads                |            0|          0|       0.000
+    Phys                |            0|          0|       0.000
+    Blackboxes          |            0|          0|       0.000
+    Cells               |          164|        208|       4.736
+      Buffers           |            0|          0|       0.000
+      Inverters         |            3|          2|       0.043
+      Clock-Gates       |            0|          0|       0.000
+      Combinational     |          161|        206|       4.693
+      Latches           |            0|          0|       0.000
+      FlipFlops         |            0|          0|       0.000
+       Single-Bit FF    |            0|          0|       0.000
+       Multi-Bit FF     |            0|          0|       0.000
+       Clock-Gated      |            0|           |            
+       Bits             |            0|          0|       0.000
+         Load-Enabled   |            0|           |            
+         Clock-Gated    |            0|           |            
+  Tristate Pin Count    |            0|           |            
+Physical Info           |Placed       |           |            
+  Chip Size (mm x mm)   |0.079 x 0.079|       6179|            
+  Fixed Cell Area       |             |          0|            
+    Phys Only           |            0|          0|            
+  Placeable Area        |             |        335|            
+  Movable Cell Area     |             |        208|            
+  Utilization (%)       |           61|           |            
+  Chip Utilization (%)  |           61|           |            
+  Total Wire Length (mm)|        4.055|           |            
+  Longest Wire (mm)     |        0.043|           |            
+  Average Wire (mm)     |        0.041|           |            
+------------------------+-------------+-----------+------------
+Report Path Groups: 
+-----+-------+------+---------+---------
+     | Path  |Weight|Critical |Worst    
+     | Group |      |Range(ps)|Slack(ps)
+-----+-------+------+---------+---------
+1    |default| 1.000|      0.0|<ill>    
+2    |I2R    | 1.000|      0.0|<ill>    
+3    |I2O    | 1.000|      0.0|  16170.1
+4    |R2O    | 1.000|      0.0|<ill>    
+-----+-------+------+---------+---------
+37   |              |                    |                     |                   |                 
+38   |*TOTAL        |           24.443300|            14.130290|           4.736318|        43.309914
+-----+--------------+--------------------+---------------------+-------------------+-----------------

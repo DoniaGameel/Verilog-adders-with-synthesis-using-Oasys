@@ -1,0 +1,49 @@
+Report Physical info: 
+------------------------+-------------+-----------+------------
+                        |             |Area (squm)|Leakage (uW)
+------------------------+-------------+-----------+------------
+Design Name             |CLA_32bit    |           |            
+  Total Instances       |          124|        157|       3.634
+    Macros              |            0|          0|       0.000
+    Pads                |            0|          0|       0.000
+    Phys                |            0|          0|       0.000
+    Blackboxes          |            0|          0|       0.000
+    Cells               |          124|        157|       3.634
+      Buffers           |            0|          0|       0.000
+      Inverters         |           19|         10|       0.273
+      Clock-Gates       |            0|          0|       0.000
+      Combinational     |          105|        147|       3.362
+      Latches           |            0|          0|       0.000
+      FlipFlops         |            0|          0|       0.000
+       Single-Bit FF    |            0|          0|       0.000
+       Multi-Bit FF     |            0|          0|       0.000
+       Clock-Gated      |            0|           |            
+       Bits             |            0|          0|       0.000
+         Load-Enabled   |            0|           |            
+         Clock-Gated    |            0|           |            
+  Tristate Pin Count    |            0|           |            
+Physical Info           |Placed       |           |            
+  Chip Size (mm x mm)   |0.077 x 0.077|       5904|            
+  Fixed Cell Area       |             |          0|            
+    Phys Only           |            0|          0|            
+  Placeable Area        |             |        281|            
+  Movable Cell Area     |             |        157|            
+  Utilization (%)       |           55|           |            
+  Chip Utilization (%)  |           55|           |            
+  Total Wire Length (mm)|        3.967|           |            
+  Longest Wire (mm)     |        0.042|           |            
+  Average Wire (mm)     |        0.040|           |            
+------------------------+-------------+-----------+------------
+Report Path Groups: 
+-----+-------+------+---------+---------
+     | Path  |Weight|Critical |Worst    
+     | Group |      |Range(ps)|Slack(ps)
+-----+-------+------+---------+---------
+1    |default| 1.000|      0.0|<ill>    
+2    |I2R    | 1.000|      0.0|<ill>    
+3    |I2O    | 1.000|      0.0|  16548.2
+4    |R2O    | 1.000|      0.0|<ill>    
+-----+-------+------+---------+---------
+13   |              |                    |                     |                   |                 
+14   |*TOTAL        |           20.418034|            21.061024|           3.634373|        45.113426
+-----+--------------+--------------------+---------------------+-------------------+-----------------

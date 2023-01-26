@@ -1,0 +1,134 @@
+Report Instance Areas: 
+-----+--------------+----------------+-----+---------
+     |Instance      |Module          |Cells|Cell Area
+-----+--------------+----------------+-----+---------
+1    |top           |                |  224|      288
+2    |  a0          |fulladder__0_108|    5|        6
+3    |    ha1       |halfadder__0_107|    2|        3
+4    |    ha2       |halfadder__0_104|    2|        3
+5    |  b0          |fulladder__0_116|    2|        3
+6    |    ha1       |halfadder__0_115|    2|        3
+7    |  bFinal      |fulladder__0_124|    1|        2
+8    |    ha2       |halfadder__0_120|    1|        2
+9    |  genblk1_1_a |halfadder__0_13 |    2|        3
+10   |  genblk1_2_a |halfadder__0_16 |    2|        3
+11   |  genblk1_3_a |halfadder__0_19 |    2|        3
+12   |  genblk1_4_a |halfadder__0_22 |    2|        3
+13   |  genblk1_5_a |halfadder__0_25 |    2|        3
+14   |  genblk1_6_a |halfadder__0_28 |    2|        3
+15   |  genblk1_7_a |halfadder__0_31 |    2|        3
+16   |  genblk1_8_a |halfadder__0_34 |    2|        3
+17   |  genblk1_9_a |halfadder__0_37 |    2|        3
+18   |  genblk1_10_a|halfadder__0_40 |    2|        3
+19   |  genblk1_11_a|halfadder__0_43 |    2|        3
+20   |  genblk1_12_a|halfadder__0_46 |    2|        3
+21   |  genblk1_13_a|halfadder__0_49 |    2|        3
+22   |  genblk1_14_a|halfadder__0_52 |    2|        3
+23   |  genblk1_15_a|halfadder__0_55 |    2|        3
+24   |  genblk1_16_a|halfadder__0_58 |    2|        3
+25   |  genblk1_17_a|halfadder__0_61 |    2|        3
+26   |  genblk1_18_a|halfadder__0_64 |    2|        3
+27   |  genblk1_19_a|halfadder__0_67 |    2|        3
+28   |  genblk1_20_a|halfadder__0_70 |    2|        3
+29   |  genblk1_21_a|halfadder__0_73 |    2|        3
+30   |  genblk1_22_a|halfadder__0_76 |    2|        3
+31   |  genblk1_23_a|halfadder__0_79 |    2|        3
+32   |  genblk1_24_a|halfadder__0_82 |    2|        3
+33   |  genblk1_25_a|halfadder__0_85 |    2|        3
+34   |  genblk1_26_a|halfadder__0_88 |    2|        3
+35   |  genblk1_27_a|halfadder__0_91 |    2|        3
+36   |  genblk1_28_a|halfadder__0_94 |    2|        3
+37   |  genblk1_29_a|halfadder__0_97 |    2|        3
+38   |  genblk1_30_a|halfadder__0_100|    2|        3
+39   |  genblk1_31_a|halfadder       |    2|        3
+40   |  genblk2_1_b |fulladder__0_132|    5|        6
+41   |    ha1       |halfadder__0_131|    2|        3
+42   |    ha2       |halfadder__0_128|    2|        3
+43   |  genblk2_2_b |fulladder__0_140|    5|        6
+44   |    ha1       |halfadder__0_139|    2|        3
+45   |    ha2       |halfadder__0_136|    2|        3
+46   |  genblk2_3_b |fulladder__0_148|    5|        6
+47   |    ha1       |halfadder__0_147|    2|        3
+48   |    ha2       |halfadder__0_144|    2|        3
+49   |  genblk2_4_b |fulladder__0_156|    5|        6
+50   |    ha1       |halfadder__0_155|    2|        3
+51   |    ha2       |halfadder__0_152|    2|        3
+52   |  genblk2_5_b |fulladder__0_164|    5|        6
+53   |    ha1       |halfadder__0_163|    2|        3
+54   |    ha2       |halfadder__0_160|    2|        3
+55   |  genblk2_6_b |fulladder__0_172|    5|        6
+56   |    ha1       |halfadder__0_171|    2|        3
+57   |    ha2       |halfadder__0_168|    2|        3
+58   |  genblk2_7_b |fulladder__0_180|    5|        6
+59   |    ha1       |halfadder__0_179|    2|        3
+60   |    ha2       |halfadder__0_176|    2|        3
+61   |  genblk2_8_b |fulladder__0_188|    5|        6
+62   |    ha1       |halfadder__0_187|    2|        3
+63   |    ha2       |halfadder__0_184|    2|        3
+64   |  genblk2_9_b |fulladder__0_196|    5|        6
+65   |    ha1       |halfadder__0_195|    2|        3
+66   |    ha2       |halfadder__0_192|    2|        3
+67   |  genblk2_10_b|fulladder__0_204|    5|        6
+68   |    ha1       |halfadder__0_203|    2|        3
+69   |    ha2       |halfadder__0_200|    2|        3
+70   |  genblk2_11_b|fulladder__0_212|    5|        6
+71   |    ha1       |halfadder__0_211|    2|        3
+72   |    ha2       |halfadder__0_208|    2|        3
+73   |  genblk2_12_b|fulladder__0_220|    5|        6
+74   |    ha1       |halfadder__0_219|    2|        3
+75   |    ha2       |halfadder__0_216|    2|        3
+76   |  genblk2_13_b|fulladder__0_228|    5|        6
+77   |    ha1       |halfadder__0_227|    2|        3
+78   |    ha2       |halfadder__0_224|    2|        3
+79   |  genblk2_14_b|fulladder__0_236|    5|        6
+80   |    ha1       |halfadder__0_235|    2|        3
+81   |    ha2       |halfadder__0_232|    2|        3
+82   |  genblk2_15_b|fulladder__0_244|    5|        6
+83   |    ha1       |halfadder__0_243|    2|        3
+84   |    ha2       |halfadder__0_240|    2|        3
+85   |  genblk2_16_b|fulladder__0_252|    5|        6
+86   |    ha1       |halfadder__0_251|    2|        3
+87   |    ha2       |halfadder__0_248|    2|        3
+88   |  genblk2_17_b|fulladder__0_260|    5|        6
+89   |    ha1       |halfadder__0_259|    2|        3
+90   |    ha2       |halfadder__0_256|    2|        3
+91   |  genblk2_18_b|fulladder__0_268|    5|        6
+92   |    ha1       |halfadder__0_267|    2|        3
+93   |    ha2       |halfadder__0_264|    2|        3
+94   |  genblk2_19_b|fulladder__0_276|    5|        6
+95   |    ha1       |halfadder__0_275|    2|        3
+96   |    ha2       |halfadder__0_272|    2|        3
+97   |  genblk2_20_b|fulladder__0_284|    5|        6
+98   |    ha1       |halfadder__0_283|    2|        3
+99   |    ha2       |halfadder__0_280|    2|        3
+100  |  genblk2_21_b|fulladder__0_292|    5|        6
+101  |    ha1       |halfadder__0_291|    2|        3
+102  |    ha2       |halfadder__0_288|    2|        3
+103  |  genblk2_22_b|fulladder__0_300|    5|        6
+104  |    ha1       |halfadder__0_299|    2|        3
+105  |    ha2       |halfadder__0_296|    2|        3
+106  |  genblk2_23_b|fulladder__0_308|    5|        6
+107  |    ha1       |halfadder__0_307|    2|        3
+108  |    ha2       |halfadder__0_304|    2|        3
+109  |  genblk2_24_b|fulladder__0_316|    5|        6
+110  |    ha1       |halfadder__0_315|    2|        3
+111  |    ha2       |halfadder__0_312|    2|        3
+112  |  genblk2_25_b|fulladder__0_324|    5|        6
+113  |    ha1       |halfadder__0_323|    2|        3
+114  |    ha2       |halfadder__0_320|    2|        3
+115  |  genblk2_26_b|fulladder__0_332|    5|        6
+116  |    ha1       |halfadder__0_331|    2|        3
+117  |    ha2       |halfadder__0_328|    2|        3
+118  |  genblk2_27_b|fulladder__0_340|    5|        6
+119  |    ha1       |halfadder__0_339|    2|        3
+120  |    ha2       |halfadder__0_336|    2|        3
+121  |  genblk2_28_b|fulladder__0_348|    5|        6
+122  |    ha1       |halfadder__0_347|    2|        3
+123  |    ha2       |halfadder__0_344|    2|        3
+124  |  genblk2_29_b|fulladder__0_356|    5|        6
+125  |    ha1       |halfadder__0_355|    2|        3
+126  |    ha2       |halfadder__0_352|    2|        3
+127  |  genblk2_30_b|fulladder       |    5|        6
+128  |    ha1       |halfadder__0_7  |    2|        3
+129  |    ha2       |halfadder__0_10 |    2|        3
+-----+--------------+----------------+-----+---------

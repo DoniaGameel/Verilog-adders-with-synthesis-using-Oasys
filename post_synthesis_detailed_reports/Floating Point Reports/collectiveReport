@@ -1,0 +1,49 @@
+Report Physical info: 
+------------------------+------------------+-----------+------------
+                        |                  |Area (squm)|Leakage (uW)
+------------------------+------------------+-----------+------------
+Design Name             |FloatingPointAdder|           |            
+  Total Instances       |               878|       1246|      26.388
+    Macros              |                 0|          0|       0.000
+    Pads                |                 0|          0|       0.000
+    Phys                |                 0|          0|       0.000
+    Blackboxes          |                 0|          0|       0.000
+    Cells               |               878|       1246|      26.388
+      Buffers           |                 0|          0|       0.000
+      Inverters         |                91|         48|       1.306
+      Clock-Gates       |                 0|          0|       0.000
+      Combinational     |               787|       1198|      25.082
+      Latches           |                 0|          0|       0.000
+      FlipFlops         |                 0|          0|       0.000
+       Single-Bit FF    |                 0|          0|       0.000
+       Multi-Bit FF     |                 0|          0|       0.000
+       Clock-Gated      |                 0|           |            
+       Bits             |                 0|          0|       0.000
+         Load-Enabled   |                 0|           |            
+         Clock-Gated    |                 0|           |            
+  Tristate Pin Count    |                 0|           |            
+Physical Info           |Placed            |           |            
+  Chip Size (mm x mm)   |0.106 x 0.106     |      11144|            
+  Fixed Cell Area       |                  |          0|            
+    Phys Only           |                 0|          0|            
+  Placeable Area        |                  |       2034|            
+  Movable Cell Area     |                  |       1246|            
+  Utilization (%)       |                61|           |            
+  Chip Utilization (%)  |                61|           |            
+  Total Wire Length (mm)|             5.221|           |            
+  Longest Wire (mm)     |             0.056|           |            
+  Average Wire (mm)     |             0.054|           |            
+------------------------+------------------+-----------+------------
+Report Path Groups: 
+-----+-------+------+---------+---------
+     | Path  |Weight|Critical |Worst    
+     | Group |      |Range(ps)|Slack(ps)
+-----+-------+------+---------+---------
+1    |default| 1.000|      0.0|<ill>    
+2    |I2R    | 1.000|      0.0|<ill>    
+3    |I2O    | 1.000|      0.0|  14998.5
+4    |R2O    | 1.000|      0.0|<ill>    
+-----+-------+------+---------+---------
+188  |                |                    |                     |                   |                 
+189  |*TOTAL          |           75.346962|            78.755180|          26.388346|       180.490494
+-----+----------------+--------------------+---------------------+-------------------+-----------------

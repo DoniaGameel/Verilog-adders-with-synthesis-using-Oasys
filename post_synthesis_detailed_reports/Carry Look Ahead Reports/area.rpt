@@ -1,0 +1,14 @@
+Report Instance Areas: 
+-----+---------------+---------------------------+-----+---------
+     |Instance       |Module                     |Cells|Cell Area
+-----+---------------+---------------------------+-----+---------
+1    |top            |                           |  124|      157
+2    |  genblk1_0_cla|carry_look_ahead_4bit__0_15|   15|       19
+3    |  genblk1_1_cla|carry_look_ahead_4bit__0_23|   15|       19
+4    |  genblk1_2_cla|carry_look_ahead_4bit__0_31|   15|       19
+5    |  genblk1_3_cla|carry_look_ahead_4bit__0_39|   15|       19
+6    |  genblk1_4_cla|carry_look_ahead_4bit__0_47|   15|       19
+7    |  genblk1_5_cla|carry_look_ahead_4bit__0_55|   15|       19
+8    |  genblk1_6_cla|carry_look_ahead_4bit__0_63|   15|       19
+9    |  genblk1_7_cla|carry_look_ahead_4bit      |   15|       19
+-----+---------------+---------------------------+-----+---------

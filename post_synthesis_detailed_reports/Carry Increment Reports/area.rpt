@@ -1,0 +1,138 @@
+Report Instance Areas: 
+-----+----------------+-------------------+-----+---------
+     |Instance        |Module             |Cells|Cell Area
+-----+----------------+-------------------+-----+---------
+1    |top             |                   |  206|      264
+2    |  genblk1_7_RCA |ripple_adder__0_161|   17|       22
+3    |    genblk1_0_FA|full_adder__0_160  |    2|        3
+4    |      HA1       |half_adder__0_159  |    2|        3
+5    |    genblk1_1_FA|full_adder__0_152  |    5|        6
+6    |      HA1       |half_adder__0_151  |    2|        3
+7    |      HA2       |half_adder__0_148  |    2|        3
+8    |    genblk1_2_FA|full_adder__0_144  |    5|        6
+9    |      HA1       |half_adder__0_143  |    2|        3
+10   |      HA2       |half_adder__0_140  |    2|        3
+11   |    genblk1_3_FA|full_adder__0_136  |    5|        6
+12   |      HA1       |half_adder__0_135  |    2|        3
+13   |      HA2       |half_adder__0_132  |    2|        3
+14   |  genblk1_6_RCA |ripple_adder__0_195|   17|       22
+15   |    genblk1_0_FA|full_adder__0_194  |    2|        3
+16   |      HA1       |half_adder__0_193  |    2|        3
+17   |    genblk1_1_FA|full_adder__0_186  |    5|        6
+18   |      HA1       |half_adder__0_185  |    2|        3
+19   |      HA2       |half_adder__0_182  |    2|        3
+20   |    genblk1_2_FA|full_adder__0_178  |    5|        6
+21   |      HA1       |half_adder__0_177  |    2|        3
+22   |      HA2       |half_adder__0_174  |    2|        3
+23   |    genblk1_3_FA|full_adder__0_170  |    5|        6
+24   |      HA1       |half_adder__0_169  |    2|        3
+25   |      HA2       |half_adder__0_166  |    2|        3
+26   |  genblk1_5_RCA |ripple_adder__0_229|   17|       22
+27   |    genblk1_0_FA|full_adder__0_228  |    2|        3
+28   |      HA1       |half_adder__0_227  |    2|        3
+29   |    genblk1_1_FA|full_adder__0_220  |    5|        6
+30   |      HA1       |half_adder__0_219  |    2|        3
+31   |      HA2       |half_adder__0_216  |    2|        3
+32   |    genblk1_2_FA|full_adder__0_212  |    5|        6
+33   |      HA1       |half_adder__0_211  |    2|        3
+34   |      HA2       |half_adder__0_208  |    2|        3
+35   |    genblk1_3_FA|full_adder__0_204  |    5|        6
+36   |      HA1       |half_adder__0_203  |    2|        3
+37   |      HA2       |half_adder__0_200  |    2|        3
+38   |  genblk1_4_RCA |ripple_adder__0_263|   17|       22
+39   |    genblk1_0_FA|full_adder__0_262  |    2|        3
+40   |      HA1       |half_adder__0_261  |    2|        3
+41   |    genblk1_1_FA|full_adder__0_254  |    5|        6
+42   |      HA1       |half_adder__0_253  |    2|        3
+43   |      HA2       |half_adder__0_250  |    2|        3
+44   |    genblk1_2_FA|full_adder__0_246  |    5|        6
+45   |      HA1       |half_adder__0_245  |    2|        3
+46   |      HA2       |half_adder__0_242  |    2|        3
+47   |    genblk1_3_FA|full_adder__0_238  |    5|        6
+48   |      HA1       |half_adder__0_237  |    2|        3
+49   |      HA2       |half_adder__0_234  |    2|        3
+50   |  genblk1_3_RCA |ripple_adder__0_297|   17|       22
+51   |    genblk1_0_FA|full_adder__0_296  |    2|        3
+52   |      HA1       |half_adder__0_295  |    2|        3
+53   |    genblk1_1_FA|full_adder__0_288  |    5|        6
+54   |      HA1       |half_adder__0_287  |    2|        3
+55   |      HA2       |half_adder__0_284  |    2|        3
+56   |    genblk1_2_FA|full_adder__0_280  |    5|        6
+57   |      HA1       |half_adder__0_279  |    2|        3
+58   |      HA2       |half_adder__0_276  |    2|        3
+59   |    genblk1_3_FA|full_adder__0_272  |    5|        6
+60   |      HA1       |half_adder__0_271  |    2|        3
+61   |      HA2       |half_adder__0_268  |    2|        3
+62   |  genblk1_2_RCA |ripple_adder__0_331|   17|       22
+63   |    genblk1_0_FA|full_adder__0_330  |    2|        3
+64   |      HA1       |half_adder__0_329  |    2|        3
+65   |    genblk1_1_FA|full_adder__0_322  |    5|        6
+66   |      HA1       |half_adder__0_321  |    2|        3
+67   |      HA2       |half_adder__0_318  |    2|        3
+68   |    genblk1_2_FA|full_adder__0_314  |    5|        6
+69   |      HA1       |half_adder__0_313  |    2|        3
+70   |      HA2       |half_adder__0_310  |    2|        3
+71   |    genblk1_3_FA|full_adder__0_306  |    5|        6
+72   |      HA1       |half_adder__0_305  |    2|        3
+73   |      HA2       |half_adder__0_302  |    2|        3
+74   |  genblk1_1_RCA |ripple_adder__0_365|   17|       22
+75   |    genblk1_0_FA|full_adder__0_364  |    2|        3
+76   |      HA1       |half_adder__0_363  |    2|        3
+77   |    genblk1_1_FA|full_adder__0_356  |    5|        6
+78   |      HA1       |half_adder__0_355  |    2|        3
+79   |      HA2       |half_adder__0_352  |    2|        3
+80   |    genblk1_2_FA|full_adder__0_348  |    5|        6
+81   |      HA1       |half_adder__0_347  |    2|        3
+82   |      HA2       |half_adder__0_344  |    2|        3
+83   |    genblk1_3_FA|full_adder__0_340  |    5|        6
+84   |      HA1       |half_adder__0_339  |    2|        3
+85   |      HA2       |half_adder__0_336  |    2|        3
+86   |  genblk1_0_RCA |ripple_adder       |   20|       26
+87   |    genblk1_0_FA|full_adder__0_111  |    5|        6
+88   |      HA1       |half_adder__0_110  |    2|        3
+89   |      HA2       |half_adder__0_107  |    2|        3
+90   |    genblk1_1_FA|full_adder__0_119  |    5|        6
+91   |      HA1       |half_adder__0_118  |    2|        3
+92   |      HA2       |half_adder__0_115  |    2|        3
+93   |    genblk1_2_FA|full_adder__0_127  |    5|        6
+94   |      HA1       |half_adder__0_126  |    2|        3
+95   |      HA2       |half_adder__0_123  |    2|        3
+96   |    genblk1_3_FA|full_adder         |    5|        6
+97   |      HA1       |half_adder__0_7    |    2|        3
+98   |      HA2       |half_adder__0_10   |    2|        3
+99   |  genblk1_1_inc |incrementor__0_33  |    9|       12
+100  |    genblk1_0_HA|half_adder__0_32   |    2|        3
+101  |    genblk1_1_HA|half_adder__0_29   |    2|        3
+102  |    genblk1_2_HA|half_adder__0_26   |    2|        3
+103  |    genblk1_3_HA|half_adder__0_23   |    2|        3
+104  |  genblk1_2_inc |incrementor__0_47  |    9|       12
+105  |    genblk1_0_HA|half_adder__0_46   |    2|        3
+106  |    genblk1_1_HA|half_adder__0_43   |    2|        3
+107  |    genblk1_2_HA|half_adder__0_40   |    2|        3
+108  |    genblk1_3_HA|half_adder__0_37   |    2|        3
+109  |  genblk1_3_inc |incrementor__0_61  |    9|       12
+110  |    genblk1_0_HA|half_adder__0_60   |    2|        3
+111  |    genblk1_1_HA|half_adder__0_57   |    2|        3
+112  |    genblk1_2_HA|half_adder__0_54   |    2|        3
+113  |    genblk1_3_HA|half_adder__0_51   |    2|        3
+114  |  genblk1_4_inc |incrementor__0_75  |    9|       12
+115  |    genblk1_0_HA|half_adder__0_74   |    2|        3
+116  |    genblk1_1_HA|half_adder__0_71   |    2|        3
+117  |    genblk1_2_HA|half_adder__0_68   |    2|        3
+118  |    genblk1_3_HA|half_adder__0_65   |    2|        3
+119  |  genblk1_5_inc |incrementor__0_89  |    9|       12
+120  |    genblk1_0_HA|half_adder__0_88   |    2|        3
+121  |    genblk1_1_HA|half_adder__0_85   |    2|        3
+122  |    genblk1_2_HA|half_adder__0_82   |    2|        3
+123  |    genblk1_3_HA|half_adder__0_79   |    2|        3
+124  |  genblk1_6_inc |incrementor__0_103 |    9|       12
+125  |    genblk1_0_HA|half_adder__0_102  |    2|        3
+126  |    genblk1_1_HA|half_adder__0_99   |    2|        3
+127  |    genblk1_2_HA|half_adder__0_96   |    2|        3
+128  |    genblk1_3_HA|half_adder__0_93   |    2|        3
+129  |  genblk1_7_inc |incrementor        |    9|       12
+130  |    genblk1_0_HA|half_adder__0_13   |    2|        3
+131  |    genblk1_1_HA|half_adder__0_16   |    2|        3
+132  |    genblk1_2_HA|half_adder__0_19   |    2|        3
+133  |    genblk1_3_HA|half_adder         |    2|        3
+-----+----------------+-------------------+-----+---------

@@ -1,0 +1,135 @@
+Report Instance Areas: 
+-----+----------------------+-----------------+-----+---------
+     |Instance              |Module           |Cells|Cell Area
+-----+----------------------+-----------------+-----+---------
+1    |top                   |                 |  196|      243
+2    |  and32               |and32bits        |   31|       33
+3    |    genblk1_1_andGate |And2bits__0_256  |    1|        1
+4    |    genblk1_2_andGate |And2bits__0_258  |    1|        1
+5    |    genblk1_3_andGate |And2bits__0_260  |    1|        1
+6    |    genblk1_4_andGate |And2bits__0_262  |    1|        1
+7    |    genblk1_5_andGate |And2bits__0_264  |    1|        1
+8    |    genblk1_6_andGate |And2bits__0_266  |    1|        1
+9    |    genblk1_7_andGate |And2bits__0_268  |    1|        1
+10   |    genblk1_8_andGate |And2bits__0_270  |    1|        1
+11   |    genblk1_9_andGate |And2bits__0_272  |    1|        1
+12   |    genblk1_10_andGate|And2bits__0_274  |    1|        1
+13   |    genblk1_11_andGate|And2bits__0_276  |    1|        1
+14   |    genblk1_12_andGate|And2bits__0_278  |    1|        1
+15   |    genblk1_13_andGate|And2bits__0_280  |    1|        1
+16   |    genblk1_14_andGate|And2bits__0_282  |    1|        1
+17   |    genblk1_15_andGate|And2bits__0_284  |    1|        1
+18   |    genblk1_16_andGate|And2bits__0_286  |    1|        1
+19   |    genblk1_17_andGate|And2bits__0_288  |    1|        1
+20   |    genblk1_18_andGate|And2bits__0_290  |    1|        1
+21   |    genblk1_19_andGate|And2bits__0_292  |    1|        1
+22   |    genblk1_20_andGate|And2bits__0_294  |    1|        1
+23   |    genblk1_21_andGate|And2bits__0_296  |    1|        1
+24   |    genblk1_22_andGate|And2bits__0_298  |    1|        1
+25   |    genblk1_23_andGate|And2bits__0_300  |    1|        1
+26   |    genblk1_24_andGate|And2bits__0_302  |    1|        1
+27   |    genblk1_25_andGate|And2bits__0_304  |    1|        1
+28   |    genblk1_26_andGate|And2bits__0_306  |    1|        1
+29   |    genblk1_27_andGate|And2bits__0_308  |    1|        1
+30   |    genblk1_28_andGate|And2bits__0_310  |    1|        1
+31   |    genblk1_29_andGate|And2bits__0_312  |    1|        1
+32   |    genblk1_30_andGate|And2bits__0_314  |    1|        1
+33   |    genblk1_31_andGate|And2bits         |    1|        1
+34   |  Mux                 |Mux2inputs       |    1|        2
+35   |  genblk1_0_FA        |FAwithXOR__0_14  |    5|        6
+36   |    HA1               |half_adder__0_13 |    2|        3
+37   |    HA2               |half_adder__0_10 |    2|        3
+38   |  genblk1_1_FA        |FAwithXOR__0_22  |    5|        6
+39   |    HA1               |half_adder__0_21 |    2|        3
+40   |    HA2               |half_adder__0_18 |    2|        3
+41   |  genblk1_2_FA        |FAwithXOR__0_30  |    5|        6
+42   |    HA1               |half_adder__0_29 |    2|        3
+43   |    HA2               |half_adder__0_26 |    2|        3
+44   |  genblk1_3_FA        |FAwithXOR__0_38  |    5|        6
+45   |    HA1               |half_adder__0_37 |    2|        3
+46   |    HA2               |half_adder__0_34 |    2|        3
+47   |  genblk1_4_FA        |FAwithXOR__0_46  |    5|        6
+48   |    HA1               |half_adder__0_45 |    2|        3
+49   |    HA2               |half_adder__0_42 |    2|        3
+50   |  genblk1_5_FA        |FAwithXOR__0_54  |    5|        6
+51   |    HA1               |half_adder__0_53 |    2|        3
+52   |    HA2               |half_adder__0_50 |    2|        3
+53   |  genblk1_6_FA        |FAwithXOR__0_62  |    5|        6
+54   |    HA1               |half_adder__0_61 |    2|        3
+55   |    HA2               |half_adder__0_58 |    2|        3
+56   |  genblk1_7_FA        |FAwithXOR__0_70  |    5|        6
+57   |    HA1               |half_adder__0_69 |    2|        3
+58   |    HA2               |half_adder__0_66 |    2|        3
+59   |  genblk1_8_FA        |FAwithXOR__0_78  |    5|        6
+60   |    HA1               |half_adder__0_77 |    2|        3
+61   |    HA2               |half_adder__0_74 |    2|        3
+62   |  genblk1_9_FA        |FAwithXOR__0_86  |    5|        6
+63   |    HA1               |half_adder__0_85 |    2|        3
+64   |    HA2               |half_adder__0_82 |    2|        3
+65   |  genblk1_10_FA       |FAwithXOR__0_94  |    5|        6
+66   |    HA1               |half_adder__0_93 |    2|        3
+67   |    HA2               |half_adder__0_90 |    2|        3
+68   |  genblk1_11_FA       |FAwithXOR__0_102 |    5|        6
+69   |    HA1               |half_adder__0_101|    2|        3
+70   |    HA2               |half_adder__0_98 |    2|        3
+71   |  genblk1_12_FA       |FAwithXOR__0_110 |    5|        6
+72   |    HA1               |half_adder__0_109|    2|        3
+73   |    HA2               |half_adder__0_106|    2|        3
+74   |  genblk1_13_FA       |FAwithXOR__0_118 |    5|        6
+75   |    HA1               |half_adder__0_117|    2|        3
+76   |    HA2               |half_adder__0_114|    2|        3
+77   |  genblk1_14_FA       |FAwithXOR__0_126 |    5|        6
+78   |    HA1               |half_adder__0_125|    2|        3
+79   |    HA2               |half_adder__0_122|    2|        3
+80   |  genblk1_15_FA       |FAwithXOR__0_134 |    5|        6
+81   |    HA1               |half_adder__0_133|    2|        3
+82   |    HA2               |half_adder__0_130|    2|        3
+83   |  genblk1_16_FA       |FAwithXOR__0_142 |    5|        6
+84   |    HA1               |half_adder__0_141|    2|        3
+85   |    HA2               |half_adder__0_138|    2|        3
+86   |  genblk1_17_FA       |FAwithXOR__0_150 |    5|        6
+87   |    HA1               |half_adder__0_149|    2|        3
+88   |    HA2               |half_adder__0_146|    2|        3
+89   |  genblk1_18_FA       |FAwithXOR__0_158 |    5|        6
+90   |    HA1               |half_adder__0_157|    2|        3
+91   |    HA2               |half_adder__0_154|    2|        3
+92   |  genblk1_19_FA       |FAwithXOR__0_166 |    5|        6
+93   |    HA1               |half_adder__0_165|    2|        3
+94   |    HA2               |half_adder__0_162|    2|        3
+95   |  genblk1_20_FA       |FAwithXOR__0_174 |    5|        6
+96   |    HA1               |half_adder__0_173|    2|        3
+97   |    HA2               |half_adder__0_170|    2|        3
+98   |  genblk1_21_FA       |FAwithXOR__0_182 |    5|        6
+99   |    HA1               |half_adder__0_181|    2|        3
+100  |    HA2               |half_adder__0_178|    2|        3
+101  |  genblk1_22_FA       |FAwithXOR__0_190 |    5|        6
+102  |    HA1               |half_adder__0_189|    2|        3
+103  |    HA2               |half_adder__0_186|    2|        3
+104  |  genblk1_23_FA       |FAwithXOR__0_198 |    5|        6
+105  |    HA1               |half_adder__0_197|    2|        3
+106  |    HA2               |half_adder__0_194|    2|        3
+107  |  genblk1_24_FA       |FAwithXOR__0_206 |    5|        6
+108  |    HA1               |half_adder__0_205|    2|        3
+109  |    HA2               |half_adder__0_202|    2|        3
+110  |  genblk1_25_FA       |FAwithXOR__0_214 |    5|        6
+111  |    HA1               |half_adder__0_213|    2|        3
+112  |    HA2               |half_adder__0_210|    2|        3
+113  |  genblk1_26_FA       |FAwithXOR__0_222 |    5|        6
+114  |    HA1               |half_adder__0_221|    2|        3
+115  |    HA2               |half_adder__0_218|    2|        3
+116  |  genblk1_27_FA       |FAwithXOR__0_230 |    5|        6
+117  |    HA1               |half_adder__0_229|    2|        3
+118  |    HA2               |half_adder__0_226|    2|        3
+119  |  genblk1_28_FA       |FAwithXOR__0_238 |    5|        6
+120  |    HA1               |half_adder__0_237|    2|        3
+121  |    HA2               |half_adder__0_234|    2|        3
+122  |  genblk1_29_FA       |FAwithXOR__0_246 |    5|        6
+123  |    HA1               |half_adder__0_245|    2|        3
+124  |    HA2               |half_adder__0_242|    2|        3
+125  |  genblk1_30_FA       |FAwithXOR__0_254 |    5|        6
+126  |    HA1               |half_adder__0_253|    2|        3
+127  |    HA2               |half_adder__0_250|    2|        3
+128  |  genblk1_31_FA       |FAwithXOR        |    5|        6
+129  |    HA1               |half_adder__0_6  |    2|        3
+130  |    HA2               |half_adder       |    2|        3
+-----+----------------------+-----------------+-----+---------
