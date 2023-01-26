@@ -194,3 +194,21 @@ then selected with the multiplexer once the correct carry is known.
 **The design schematic of Carry Bypass Adder:**
 
 ![My Image](Schematic_design/CSelA.png)
+
+## Test cases in test bench file:
+
+○ Overflow of positive numbers.
+
+○ Overflow of negative numbers.
+
+○ Addition of positive and negative number
+
+○ Addition of positive and positive number
+
+○ Addition of negative and negative number
+
+○ Additional 3 random testcases.
+
+Testbench prints **“TestCase#i: success”** on success and 
+prints the **“TestCase#i: failed with input X and Y and Output Z and overflow
+status N”** , X,Y,Z,N in blue should be replaced by your values.
