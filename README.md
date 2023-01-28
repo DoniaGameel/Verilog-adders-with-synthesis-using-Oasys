@@ -300,3 +300,13 @@ Results are in 'LVC_Report_Float_Adder' folder
 
 ![My Image](LVS_Report_Float_Adder/1.png)
 
+## Contributors
+
+[Donia Gameel](https://github.com/DoniaGameel).
+
+[Heba Ashraf](https://github.com/hebaashraf21).
+
+[Mohammed Waleed](https://github.com/MohamedWw).
+
+[Waleed Hesham](https://github.com/waleedhesham446).
+
