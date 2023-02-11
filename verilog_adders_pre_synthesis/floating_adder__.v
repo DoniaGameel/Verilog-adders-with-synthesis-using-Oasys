@@ -7,8 +7,11 @@ module  FloatingPointAdder(
     wire [7:0] EA, EB;                                      //  Exponent of A, B
     wire [23:0] MA, MB, MA2C, MB2C, finalMA, finalMB;       //  Mantissa of A, B
 
-    assign MA = { 1'b1, A[22:0] };
-    assign MB = { 1'b1, B[22:0] };
+    wire MSB_A, MSB_B;
+    assign MSB_A = (A[30:23] == 0) ? 0 : 1;
+    assign MSB_B = (B[30:23] == 0) ? 0 : 1;
+    assign MA = { MSB_A, A[22:0] };
+    assign MB = { MSB_B, B[22:0] };
     assign EA = A[30:23];
     assign EB = B[30:23];
     //  Bit no. 31 is the sign bit
@@ -32,7 +35,7 @@ module  FloatingPointAdder(
 
     wire [23:0] shift_out;
     wire shift_sign;
-    assign shift_sign = (E_B == 0 & B[31] == 1'b1 & A[31] == 1'b0) | (E_B == 1 & A[31] == 1'b1 & B[31] == 1'b0);
+    assign shift_sign = (E_B == 0 & B[31] == 1'b1 & A[31] == 1'b0 & B[30:0] != 0) | (E_B == 1 & A[31] == 1'b1 & B[31] == 1'b0 & A[30:0] != 0);
     BarrelShifter RSH(M1, shift_sign, shift_out, E_D);
 
     wire [23:0] sumM;
@@ -55,7 +58,9 @@ module  FloatingPointAdder(
     assign select = {4'b0000000, (cout & (~pos_neg))};
     BarrelShifter finalshifter(sumM, 1'b0, finalM_, select);
     Complement2s #(24) finakM2Comp (finalM_, finalM2C);
-    assign finalM__ = (~cout & pos_neg) ? finalM2C : finalM_;
+    wire negM;
+    assign negM = ~cout & pos_neg & A[30:0] != 0 & B[30:0] != 0;
+    assign finalM__ = (negM) ? finalM2C : finalM_;
     wire [4:0] normalize_value;
     assign normalize_value = (pos_neg) ? (
         (finalM__[23] == 1) ? 0 :
@@ -82,10 +87,12 @@ module  FloatingPointAdder(
         (finalM__[2] == 1) ? 21 :
         (finalM__[1] == 1) ? 22 : 23
     ) : 0;
-    BarrelLeftShifter normalize(finalM__, finalM, normalize_value);
-    assign finalE = finalE_ - normalize_value;
+    wire [4:0] actual_normalize_value;
+    assign actual_normalize_value = (normalize_value <= finalE_)? normalize_value : 0;
+    BarrelLeftShifter normalize(finalM__, finalM, actual_normalize_value);
+    assign finalE = finalE_ - actual_normalize_value;
     assign Out[30:0] = { finalE, finalM[22:0] };
-    assign Out[31] = (A[31] & B[31]) | (~cout & pos_neg);
+    assign Out[31] = (A[31] & B[31]) | (negM);
 endmodule
 
 module incrementor(inS,outS,cin1,cin2,cout);
