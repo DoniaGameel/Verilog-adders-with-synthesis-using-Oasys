@@ -15,7 +15,7 @@ and synthesis.
 
 
 This why in this mini project, we will explore different implementations of adders and
-study their charachteristics.
+study their characteristics.
 
 
 
